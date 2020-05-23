@@ -9,6 +9,19 @@ public class MinimoMonedas {
 	static int espaciosAmbasPiramidesMarioDificil = 2;
 	static boolean crearMarioFacilOrDificil = true;
 
+	/**
+	 * @author Jonathan Ruano
+	 * @method Programa que muestre el numero minimo de monedas necesarias para darle el cambio 
+	 * 		   a un usuario.
+	 * 
+	 * 			Cambio Esperado $1.23
+	 * 			25c - 4 => 23c
+	 * 			10c - 2 => 3c
+	 * 			5c  - 0 => 3c
+	 * 			1c  - 3 -> 0c
+	 * @param args
+	 * @throws IOException
+	 */
 
 	public static void main(String[] args) throws IOException {
 		//=====================VARIABLES

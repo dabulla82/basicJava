@@ -8,7 +8,27 @@ public class MarioFacilDificil {
 	static int espaciosAmbasPiramidesMarioDificil = 2;
 	static boolean crearMarioFacilOrDificil = true;
 
+/**
+ * @author Jonathan Ruano
+ * @method Implementa un programa que imprima una media piramide de una altura especificada por el usuario, como abajo:
+ * $ ./mario
+		Altura: 5
+    			##
+   		       ###	
+  			  ####
+ 			 #####
+		    ######
+		    
+		    Implementa un programa que muestre una piramide doble como la que se muestra abajo.
 
+		$ ./mario
+		Altura: 4
+   				#  #
+  			   ##  ##
+ 			  ###  ###
+	         ####  #### 
+ * @param args
+ */
 	public static void main(String[] args) {
 		//=====================VARIABLES
 		int alturaMarioPiramides = 15;
