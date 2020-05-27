@@ -38,7 +38,7 @@ public class InicialesDificil {
 		String subsInicial = "";
 
 		//=====================Utilizamos Expresiones Regulares Para Eliminar Los Espacios De mas Entre
-		//					   Palabras
+		//					   Palabras si tenemos mas de un espacio en blanco se remplaza con un espacio en blanco
 		nombreDeUsuario = nombreDeUsuario.trim().replaceAll("\\s+", " ");
 		String[] nombreDeUsuarioArray = nombreDeUsuario.split("[\\h]");
 
